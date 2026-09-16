@@ -1,0 +1,8 @@
+.footer {
+    border-top: 1px solid var(--c_border);
+    padding: 20px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

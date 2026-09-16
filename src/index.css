@@ -1,0 +1,82 @@
+:root {
+  --c_text: black;
+  --c_border: black;
+  --c_danger: red;
+  --c_warning: orange;
+  --c_success: green;
+  --c_accent: purple;
+  --c_background: white;
+  --fontFamily: Arial, sans-serif;
+
+  font-family: var(--fontFamily);
+  color: var(--c_text);
+  background: var(--c_background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:where(*) {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+:where(a) {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+:where(button) {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+:where(input, textarea, select) {
+  font: inherit;
+  color: inherit;
+  background: var(--c_background);
+}
+
+:where(ul, ol) {
+  list-style: none;
+}
+
+:where(h1, h2) {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+:where(h2, h3, h4) {
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+:where(p) {
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+:where(h1) {
+  font-size: 28px;
+}
+
+:where(h2) {
+  font-size: 24px;
+}
+
+:where(h3) {
+  font-size: 20px;
+}
+
+:where(h4) {
+  font-size: 16px;
+}
+
+:where(p) {
+  font-size: 12px;
+}

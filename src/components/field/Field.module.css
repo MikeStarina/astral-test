@@ -1,0 +1,55 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+    border: none;
+}
+
+.field span,
+.field legend {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.field input,
+.field textarea,
+.field select {
+    width: 100%;
+    border: 1px solid var(--c_border);
+    padding: 8px 10px;
+    background: var(--c_background);
+    font: inherit;
+    color: inherit;
+}
+
+.field textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.field input:disabled,
+.field textarea:disabled,
+.field select:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.field__group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    margin-top: 10px;
+}
+
+.field__option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.field__option input {
+    width: auto;
+    padding: 0;
+}

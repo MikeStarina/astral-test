@@ -1,0 +1,21 @@
+.editView {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.editView__submit {
+    grid-column: 1 / -1;
+    justify-self: start;
+    padding: 10px 16px;
+    border: 1px solid var(--c_border);
+    font-size: 14px;
+}
+
+@media (max-width: 720px) {
+    .editView {
+        grid-template-columns: 1fr;
+    }
+}
