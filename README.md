@@ -5,6 +5,8 @@ npm install
 npm run dev
 ```
 
+[Демо](https://astral-test-six.vercel.app/)
+
 Дисклеймер по заданию:
 - RSC и Compiler не брал специально
 - Из доп заисимостей поставил только роутинг (React Router) - не хотел ковырять это сам, в остальном по заданию React+Redux, TS
